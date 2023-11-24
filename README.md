@@ -1,6 +1,6 @@
 # GLPI-PROJECT
 
-# GLPI Installation Guide on Debian
+## GLPI Installation Guide on Debian
 
 This guide provides detailed instructions for installing and configuring GLPI (IT and asset management software) on a Debian-based system.
 
