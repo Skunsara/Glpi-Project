@@ -10,13 +10,12 @@ This guide provides detailed instructions for installing and configuring GLPI (I
 - [VirtualBox configuration](#virtualbox-configuration)
 - [Update the System](#update-the-system)
 - [Install Apache Web Server](#install-apache-web-server)
-- [Install MySQL/MariaDB](#install-mysqlmariadb)
+- [Install MySQL](#install-mysql)
 - [Install PHP and Extensions](#install-php-and-extensions)
 - [Configure Database](#configure-database)
 - [Download and Install GLPI](#download-and-install-glpi)
 - [Apache Configuration](#apache-configuration)
 - [Finalizing GLPI Installation](#finalizing-glpi-installation)
-- [Post-Installation Recommendations](#post-installation-recommendations)
 - [Support and Documentation](#support-and-documentation)
 
 ## Prerequisites
@@ -28,7 +27,7 @@ This guide provides detailed instructions for installing and configuring GLPI (I
 
 ## VirtualBox configuration
 
-
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/1.png)
 
 ## Update the System
 
@@ -49,7 +48,7 @@ sudo systemctl start apache2
 sudo systemctl enable apache2
 ```
 
-## Install MySQL/MariDB
+## Install MySQL
 
 GLPI stores its data in a SQL database; MySQL or MariaDB can be used.
 
