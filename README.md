@@ -29,7 +29,19 @@ This guide provides detailed instructions for installing and configuring GLPI (I
 
 ![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/1.png)
 
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/2.png)
+
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/3.png)
+
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/4.png)
+
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/5.png)
+
+
+
 ## Update the System
+
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/8.png)
 
 Ensure your system packages are updated.
 
@@ -67,6 +79,7 @@ sudo apt install php php-cgi libapache2-mod-php php-common php-pear php-mbstring
 ```
 
 ## Configure Database
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/9.png)
 
 Login to your database server and create a GLPI database and user.
 
@@ -86,6 +99,7 @@ EXIT;
 Remember to replace 'password1' with a strong password.
 
 ## Download and Install GLPI
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-11-24%20000329.png)
 
 Fetch the latest release of GLPI and set up.
 
@@ -137,6 +151,8 @@ sudo systemctl restart apache2
 ```
 
 ## Finalizing GLPI Installation
+
+![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/12.png)
 
 Navigate to your GLPI installation via a web browser to complete the setup process using the web interface.
 
