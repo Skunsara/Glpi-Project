@@ -89,12 +89,12 @@ Run the following SQL commands:
 
 ```sh
 CREATE DATABASE glpidb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'skunsara'@'localhost' IDENTIFIED BY 'Password1';
-GRANT ALL PRIVILEGES ON glpidb.* TO 'skunsara'@'localhost';
+CREATE USER 'YOUR_LOGIN@YOUR_SERVER' IDENTIFIED BY 'YOUR_PASSWORD';
+GRANT ALL PRIVILEGES ON glpidb.* TO 'YOUR_LOGIN@YOUR_SERVER';
 FLUSH PRIVILEGES;
 EXIT;
 ```
-Remember to replace 'password1' with a strong password.
+Remember to replace 'YOUR_PASSWORD' with a strong password.
 
 ## Download and Install GLPI
 ![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-11-24%20000329.png)
