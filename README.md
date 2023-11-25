@@ -41,8 +41,6 @@ This guide provides detailed instructions for installing and configuring GLPI (I
 
 ## Update the System
 
-![](https://github.com/Skunsara/GLPI-PROJECT/blob/main/Screenshots/8.png)
-
 Ensure your system packages are updated.
 
 ```sh
